@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ex_01 - Red mode",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_red.dart",
+        },
+        {
+            "name": "ex_01 - Green mode",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_green.dart",
+        },
+        {
+            "name": "ex_01 (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "ex_01 (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
